@@ -1,0 +1,9 @@
+/* 重命名二叉树数据类型 */
+typedef int ElemType;
+
+/* 二叉树的结点的定义 */
+typedef struct BiTNode
+{
+    ElemType data;
+    struct BiTNode *lchild, *rchild;
+}BiTNode, *BiTree;
